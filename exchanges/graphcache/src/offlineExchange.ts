@@ -188,7 +188,6 @@ export const offlineExchange =
                 onEntries!(await hydrate);
                 storage.onOnline!(flushQueue);
                 hasRehydrated = true;
-                flushQueue();
               },
             };
           },
